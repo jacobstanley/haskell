@@ -1,0 +1,17 @@
+*.aux
+*.chi
+*.chs.h
+*.dyn_hi
+*.dyn_o
+*.eventlog
+*.hi
+*.hp
+*.o
+*.prof
+*.tix
+.cabal-sandbox/
+cabal.sandbox.config
+dist-*/
+dist/
+gen/
+tags

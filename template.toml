@@ -1,0 +1,40 @@
+license = "BSD3"
+with_readme = true
+
+[files]
+files = [
+  ]
+
+directories = [
+    "bench"
+  , "bench/Bench"
+  , "bench/Bench/{{ Project }}"
+  , "lib"
+  , "main"
+  , "src"
+  , "src/{{ Project }}"
+  , "src/{{ Project }}/Command"
+  , "test"
+  , "test/Test"
+  , "test/Test/{{ Project }}"
+  ]
+
+templates = [
+    "bench/Bench/{{ Project }}/Reverse.hs"
+  , "bench/bench.hs"
+  , "main/{{ project }}.hs"
+  , "src/{{ Project }}/Command/Reverse.hs"
+  , "src/{{ Project }}/Prelude.hs"
+  , "src/{{ Project }}/Reverse.hs"
+  , "src/{{ Project }}.hs"
+  , "test/Test/{{ Project }}/Reverse.hs"
+  , "test/test.hs"
+  , ".gitignore"
+  , ".travis.yml"
+  , "Setup.hs"
+  , "{{ project }}.cabal"
+  ]
+
+[config]
+version = "0.1.0.0"
+version_control = "git"
