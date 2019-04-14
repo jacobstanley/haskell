@@ -31,10 +31,11 @@ templates = [
   , "test/test.hs"
   , ".gitignore"
   , ".travis.yml"
+  , "CHANGELOG.md"
   , "Setup.hs"
   , "{{ project }}.cabal"
   ]
 
 [config]
-version = "0.1.0.0"
+version = "0.0"
 version_control = "git"
